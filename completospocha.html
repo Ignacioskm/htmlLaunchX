@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completos Pocha</title>
+</head>
+<body>
+    <header>
+        <h1>Completos Pocha los mejores completos del navío</h1>
+    </header>
+
+    <img src="prueba2.png" alt="Logo Completos Pocha">
+    <section>
+        <h2>Menú</h2>
+        <h3> Completos Grandes</h3>
+        <ul>
+            <li>Completo italiano . . . . . . . . . . . .  $2.990</li>
+            <li>Completo chacarero . . . . . . . . . . . . $2.990</li>
+            <li>Completo Especial . . . . . . . . . . . . $2.990</li>
+            <li>Completo Pochito . . . . . . . . . . . . $2.990</li>
+            <li>Completo Vegetariano . . . . . . . . . . . . $2.990</li>
+        </ul>
+
+        <h3> Adicionales </h3>
+        <p>cualquier adicional por 2.000$ más</p>
+        <ul>
+            <li>Papas Fritas grandes . . . . . . . . . . . .  $2.990</li>
+            <li>Papas fritas medianas . . . . . . . . . . . .  $2.990</li>
+            <li>Aros de cebolla . . . . . . . . . . . .  $2.990</li>
+            <li>Nuggets . . . . . . . . . . . .  $2.990</li>
+        </ul>
+
+        <h3>Liquidos</h3>
+        <ul>
+            <li>Coca-Cola 2L . . . . . . . . . . . .  $2.990</li>
+            <li>Piscolas . . . . . . . . . . . .  $2.990</li>
+            <li>Cerveza . . . . . . . . . . . .  $2.990</li>
+            <li>Terremoto . . . . . . . . . . . .  $2.990</li>
+        </ul>
+    </section>
+
+    <hr>
+    <section>
+        <h2> Ubicación </h2>
+        <h3> Sucursales </h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Viña del mar poniente</td>
+                <td> <a href="https://goo.gl/maps/4Bi6gmQCH9KgHF9s6" target="_blank">7 poniente 379</a></td>
+                <td>7pm - 2am</td>
+            </tr>
+            <tr>
+                <td>Viña del mar oriente</td>
+                <td> <a href="https://goo.gl/maps/4Bi6gmQCH9KgHF9s6" target="_blank">2 oriente</a></td>
+                <td>7pm - 2am</td>
+            </tr>
+            <tr>
+                <td>Quilpue Centro</td>
+                <td> <a href="https://goo.gl/maps/4Bi6gmQCH9KgHF9s6" target="_blank">Quilpue centro </a></td>
+                <td>7pm - 2am</td>
+            </tr>         
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Pedidos</h2>
+        <h3> Haz tu pedido aquí.</h3>
+
+        <form>
+            <p>¿De qué local lo deseas?</p>
+                <select>
+                    <option value="Viña del mar poniente">Viña del mar poniente</option>
+                    <option value="Viña del mar oriente">Viña del mar oriente</option>
+                    <option value="Quilpue centro">Quilpue centro</option>
+                </select>
+            <p>¿Qué Completos deseas?</p>
+                <input type="checkbox" id="Completo italiano" name="Completo italiano" value="Completo italiano">
+                <label for="Completo italiano">Completo Italiano</label>
+                <input type="number" id="CompletoItalianoNumber" name="CompletoItalianoNumber" placeholder="¿Cuantos?">
+            <br>
+                <input type="checkbox" id="Completo chacarero" name="Completo chacarero" value="Completo chacarero">
+                <label for="Completo chacarero">Completo chacarero</label>
+                <input type="number" id="CompletochacareroNumber" name="CompletochacareroNumber" placeholder="¿Cuantos?">
+            <br>
+                <input type="checkbox" id="Completo Especial" name="Completo Especial" value="Completo Especial">
+                <label for="Completo Especial">Completo Especial</label>
+                <input type="number" id="Completo Especial" name="Completo Especial" placeholder="¿Cuantos?">
+            <br>
+                <input type="checkbox" id="Completo Pochito" name="Completo Pochito" value="Completo Pochito">
+                <label for="Completo Pochito">Completo Pochito</label>
+                <input type="number" id="CompletoPochitoNumber" name="CompletoPochitoNumber" placeholder="¿Cuantos?">
+            <br>
+                <input type="checkbox" id="Completo Vegetariano" name="Completo Vegetariano" value="Completo Vegetariano">
+                <label for="Completo Vegetariano">Completo Vegetariano</label>
+                <input type="number" id="CompletoVegetarianoNumber" name="CompletoVegetarianoNumber" placeholder="¿Cuantos?">
+        
+            <p>¿Quieres algun adicional?</p>
+
+                <input type="checkbox" id="Papas Fritas grandes" name="Papas Fritas grandes" value="Papas Fritas grandes">
+                <label for="Papas Fritas grandes">Papas Fritas grandes</label>
+                <input type="number" id="PapasFritasgrandesNumber" name="PapasFritasgrandesNumber" placeholder="¿Cuantos?">
+            <br>
+                <input type="checkbox" id="Papas fritas medianas" name="Papas fritas medianas" value="Papas fritas medianas">
+                <label for="Papas fritas medianas">Papas fritas medianas</label>
+                <input type="number" id="PapasfritasmedianasNumber" name="PapasfritasmedianasNumber" placeholder="¿Cuantos?">
+            <br>
+                <input type="checkbox" id="Aros de cebolla" name="Aros de cebolla" value="Aros de cebolla">
+                <label for="Aros de cebolla">Aros de cebolla</label>
+                <input type="number" id="ArosdecebollaNumber" name="ArosdecebollaNumber" placeholder="¿Cuantos?">
+            <br>
+                <input type="checkbox" id="Nuggets" name="Nuggets" value="Nuggets">
+                <label for="Nuggets">Nuggets</label>
+                <input type="number" id="NuggetsNumber" name="NuggetsNumber" placeholder="¿Cuantos?">
+            
+            <p>¿Que bebida deseas?</p>  
+            
+                <input type="checkbox" id="Coca-Cola 2L" name="Coca-Cola 2L" value="Coca-Cola 2L">
+                <label for="Coca-Cola 2L">Coca-Cola 2L</label>
+                <input type="number" id="Coca-Cola2LNumber" name="Coca-Cola2LNumber" placeholder="¿Cuantas?">
+            <br>
+                <input type="checkbox" id="Piscolas" name="Piscolas" value="Piscolas">
+                <label for="Piscolas">Piscolas</label>
+                <input type="number" id="PiscolasNumber" name="PiscolasNumber" placeholder="¿Cuantas?">
+            <br>
+                <input type="checkbox" id="Cerveza" name="Cerveza" value="Cerveza">
+                <label for="Cerveza">Cerveza</label>
+                <input type="number" id="CervezaNumber " name="CervezaNumber" placeholder="¿Cuantas?">
+            <br>
+                <input type="checkbox" id="Terremoto" name="Terremoto" value="Terremoto">
+                <label for="Terremoto">Terremoto</label>
+                <input type="number" id="Terremoto" name="Terremoto" placeholder="¿Cuantas?">
+            <br>
+
+                <br><br>
+
+            <label for="Nombre">Nombre:</label> 
+            <input type="text" id="Nombre" name="Nombre" placeholder="¿Como te llamas?">
+
+                <br><br>
+
+            <label for="Telefono">Telefono:</label> 
+            <input type="text" id="Telefono" name="Telefono" placeholder="Ingresa tu numero de Telefono">
+
+                <br><br>
+            
+            <label for="Dirección">Dirección:</label> 
+            <input type="text" id="Dirección" name="Dirección" placeholder="Ingresa tu Dirección">
+
+            <button type="submit">Enviar pedido</button>
+        </form>
+    </section>
+</body>
+</html>
